@@ -29,7 +29,7 @@ const User = db.define('user', {
     }
 })
 
-module.exports = {Page,User}
+module.exports = { db, Page, User }
 // db.authenticate().
 // then(() => {
 //   console.log('connected to the database (index.js)');
